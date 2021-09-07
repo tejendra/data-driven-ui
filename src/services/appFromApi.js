@@ -134,7 +134,6 @@ export const getAppFromApi = (api) =>
         case '/paycheck-api':
           return resolve(paycheckData);
         default:
-          console.log('fuckers');
           return reject('no api defined');
       }
     }, 0);
